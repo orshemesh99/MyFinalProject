@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="tests.LoginFailed"/>
+      <class name="tests.ForgetPasswordTest"/>
+      <class name="tests.CustomersTest"/>
+      <class name="tests.AddSimpleProduct"/>
+      <class name="tests.ProductsTest"/>
+      <class name="tests.ShipmentsTest"/>
+      <class name="tests.CountriesTest"/>
+      <class name="tests.AdministratorTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
