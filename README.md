@@ -91,8 +91,4 @@ The project follows the Page Object Model (POM) design pattern for a modular and
 ```
 
 Thanks for visiting my GitHub profile! 😊
-Gal Matalon 
-<p>
-  <img src="readme/gal-matalon.jpg" width="70%" title="גל מטלון - המכללה לאוטומציה"  />
-</p>
-https://www.automation.co.il
+Or Shemesh 
