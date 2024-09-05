@@ -1,8 +1,4 @@
 
-<a href="https://www.automation.co.il">
-    <img src="https://automation.co.il/wp-content/uploads/2020/06/cropped-%D7%94%D7%9E%D7%9B%D7%9C%D7%9C%D7%94-%D7%9C%D7%90%D7%95%D7%98%D7%95%D7%9E%D7%A6%D7%99%D7%94.png" alt="המכללה לאוטומציה" title="המכללה לאוטומציה" align="right" height="60" />
-</a>
-
 # 💻 My Automation Project 
 ✅ This is a testing automation demo project that tests a real site called: 
 https://demo.sylius.com/admin/login
