@@ -34,9 +34,9 @@ public class CustomersTest extends BaseTest {
 	@Test
 	public void tc04_chooseCustomerFromList () {
 		customersPage.ChoiceFromLeftSideMenu("Customers");
-		customersPage.CustomerList("Orn");
+		customersPage.CustomerList("Huels");
 		String rightCustomer = customersPage.thisIsTheRightCustomer();
-		Assert.assertEquals(rightCustomer, "Izaiah Orn");
+		Assert.assertEquals(rightCustomer, "Santina Huels");
 		
 	}
 	
