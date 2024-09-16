@@ -13,7 +13,7 @@ public class ProductsTest extends BaseTest{
 		mainPage.ChoiceFromLeftSideMenu("Products");
 		String actual = projectsPage.isThisTheRightPage();
 		Assert.assertEquals(actual, "Products");
-		projectsPage.FilteraBy("equal", "regular", "true", "3230");
+		projectsPage.FilteraBy("equal", "regular", "true", "5007");
 		String e = projectsPage.eroorMsg();
 		System.out.println(e);
 	}
