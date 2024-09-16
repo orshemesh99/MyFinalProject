@@ -11,7 +11,7 @@ public class ShipmentsTest extends BaseTest{
 		shipmentsPage.SearchAndSelectShipmentsInMenu("Shipments");
 		String actual = projectsPage.isThisTheRightPage();
 		Assert.assertEquals(actual, "Shipments");
-		shipmentsPage.FilterShipmentsBy("shipped", "3230", "4839");
+		shipmentsPage.FilterShipmentsBy("shipped", "5007", "7505");
 		String info = shipmentsPage.getInfoMsg();
 		System.out.println(info);
 	}
@@ -19,10 +19,10 @@ public class ShipmentsTest extends BaseTest{
 	@Test
 	public void tc02_SortShipmentsBy () {
 	shipmentsPage.clearFilters();
-	shipmentsPage.FilterShipmentsBy("ready", "", "4840");
-	shipmentsPage.SelectShipmentBySerialOrder("#000000004");
+	shipmentsPage.FilterShipmentsBy("ready", "", "7503");
+	shipmentsPage.SelectShipmentBySerialOrder("#000000021");
 	String actual = projectsPage.isThisTheRightPage();
-	Assert.assertEquals(actual, "#000000004");
+	Assert.assertEquals(actual, "#000000021");
 	}
 	
 	@Test
