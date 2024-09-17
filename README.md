@@ -34,18 +34,6 @@ The project follows the Page Object Model (POM) design pattern for a modular and
   <img src="README/2024-09-03_18-56-11.png" width="40%" alt="Example for screenshot on failure" />
 </p>
 
-
-## 📖 Prerequisites
-
-- Write here your Prerequisites if exists.
-
-## 🚀 Getting Started
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-    ```
-
 ## 📁 Project Structure
 ```
 ├───.settings
